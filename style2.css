@@ -1,0 +1,89 @@
+/**
+    Jay Zemel
+    ITSE 2402-14517
+    CSS example
+**/
+body {
+    font-family: Verdana, Arial, sans-serif;
+    background-color: #263238;
+    color: white;
+}
+
+h1 {
+    background-color: #006064;
+    padding: 5px;
+    max-width: 45rem;
+}
+
+h2 {
+    background-color: #0D47A1 ;
+    padding: 5px;
+    max-width: 25rem;
+}
+
+div {
+    border-bottom: 1px solid lightgray;
+}
+
+ul {
+    list-style: disc;
+}
+
+img#map {
+    float: right;
+    margin: 10px;
+    outline: 4px solid darkslateblue;
+}
+
+nav {
+    background-color: #37474F;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline;
+    padding: 4px;
+}
+li#home {
+    font-weight: bold;
+}
+li#style1 {
+    background-color: lightblue;
+}
+li#style2 {
+    background-color: #1A237E;
+    color: white;
+}
+
+a:link {
+    color: white;
+}
+a:hover {
+    font-weight: bold;
+}
+a:visited {
+    color: goldenrod;
+}
+a#lightlink:link {
+    color: darkblue;
+}
+a#lightlink:visited {
+    color: purple;
+}
+a#lightlink:hover {
+    font-weight: bold;
+}
+
+footer {
+    font-style: italic;
+    font-size: .9em;
+    margin-top: 25px;
+    padding-left: 25px;
+    border: solid 1px lightgray;
+    max-width: 15rem;
+}
